@@ -1,4 +1,4 @@
-local view = require("tabuleiroView")
-view:iniciar()
-view:desenharTabuleiro()
-view:desenharRetanguloPosicao1()
+local tabuleiro = require("tabuleiroView")
+
+tabuleiro:iniciar()
+tabuleiro:desenharTabuleiro()
